@@ -99,6 +99,9 @@ That's it. The script is fully self-contained — it downloads the YOLOv8 model 
 
 ## 🔄 Project Workflow
 
+<img width="1012" height="571" alt="image" src="https://github.com/user-attachments/assets/1abddaad-715f-4497-864d-c89a067d81f5" />
+
+
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │                        INPUT SOURCES                        │
