@@ -25,6 +25,7 @@ The system uses the **YOLOv8 nano** model (80 COCO classes) and is designed to r
 object-detection-byop/
 │
 ├── object_detection_byop.py   # Main script — all 11 steps in one file
+├── requirements.txt           # All dependencies listed here
 │
 ├── sample_data/               # Auto-created on first run
 │   ├── bus.jpg                # Downloaded sample image
@@ -55,7 +56,34 @@ object-detection-byop/
 - A webcam (optional — all other features work without one)
 - ~50 MB disk space for model weights
 
-### Install Dependencies
+### Install via `requirements.txt` (Recommended)
+
+Create a `requirements.txt` file in your project root with the following contents:
+
+```
+ultralytics
+opencv-python
+matplotlib
+Pillow
+requests
+tqdm
+```
+
+Then install all dependencies in one command:
+
+```bash
+pip install -r requirements.txt
+```
+
+> **Tip:** It's recommended to use a virtual environment to keep dependencies isolated:
+>
+> ```bash
+> python -m venv venv
+> source venv/bin/activate        # On Windows: venv\Scripts\activate
+> pip install -r requirements.txt
+> ```
+
+### Or Install Manually
 
 ```bash
 pip install ultralytics opencv-python matplotlib Pillow requests tqdm
@@ -82,7 +110,35 @@ That's it. The script is fully self-contained — it downloads the YOLOv8 model 
 
 ---
 
-## 🔍 What the Script Does (Step by Step)
+## 🔄 Project Workflow
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                        INPUT SOURCES                        │
+│        Static Image │ Video File │ Live Webcam Feed         │
+└────────────┬────────────────┬──────────────┬────────────────┘
+             │                │              │
+             ▼                ▼              ▼
+┌────────────────────────────────────────────────────────────┐
+│                   YOLOv8n Inference Engine                  │
+│              (Single forward pass per frame)                │
+└─────────────────────────────┬──────────────────────────────┘
+                              │
+              ┌───────────────┼───────────────┐
+              ▼               ▼               ▼
+     Bounding Boxes     Class Labels     Confidence
+        drawn on          printed          Scores
+         image           to terminal      charted
+              │               │               │
+              └───────────────┼───────────────┘
+                              ▼
+┌─────────────────────────────────────────────────────────────┐
+│                        OUTPUT FILES                         │
+│  Annotated Images │ Annotated Video │ Stats Chart (PNG)     │
+└─────────────────────────────────────────────────────────────┘
+```
+
+### Step-by-Step Execution Flow
 
 | Step | Description |
 |------|-------------|
