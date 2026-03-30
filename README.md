@@ -2,6 +2,9 @@
 
 > **Course:** Computer Vision — Bring Your Own Project (BYOP)
 > **Deadline:** March 31, 2026
+> **Submitted to :** Dr. Rajneesh Patel - VITyarthi Portal
+> **Aim :** Implementation of CV in real Life
+> 
 
 A complete object detection pipeline built with **YOLOv8** and **OpenCV** that detects objects across three input modes: static images, video files, and live webcam with instant camera capture.
 
