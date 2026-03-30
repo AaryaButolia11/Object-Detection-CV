@@ -154,6 +154,13 @@ This is the interactive highlight of the project.
 5. You can capture **multiple times** in one session — each is saved with an index number
 6. Press **`Q`** to end the session
 
+**ScreenShots**
+
+***Original*** <img width="757" height="1034" alt="image" src="https://github.com/user-attachments/assets/0595cc11-c005-4fc7-be8a-47ef2e3736cb" />
+***Predicted*** <img width="965" height="1184" alt="image" src="https://github.com/user-attachments/assets/ff693bad-5154-4de3-9441-88a0ec3fd848" />
+
+
+
 **Controls:**
 
 | Key | Action |
