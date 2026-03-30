@@ -58,19 +58,6 @@ object-detection-byop/
 
 ### Install via `requirements.txt` (Recommended)
 
-Create a `requirements.txt` file in your project root with the following contents:
-
-```
-ultralytics
-opencv-python
-matplotlib
-Pillow
-requests
-tqdm
-```
-
-Then install all dependencies in one command:
-
 ```bash
 pip install -r requirements.txt
 ```
