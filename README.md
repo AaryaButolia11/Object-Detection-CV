@@ -154,17 +154,7 @@ This is the interactive highlight of the project.
 5. You can capture **multiple times** in one session — each is saved with an index number
 6. Press **`Q`** to end the session
 
-## 📸 Screenshots
 
-### 🖼️ Original Image
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/0595cc11-c005-4fc7-be8a-47ef2e3736cb" alt="Original Image" width="400"/>
-</p>
-
-### 🎯 Predicted Output
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/ff693bad-5154-4de3-9441-88a0ec3fd848" alt="Predicted Image" width="500"/>
-</p>
 
 **Controls:**
 
@@ -181,7 +171,25 @@ This is the interactive highlight of the project.
 | `camera_detected_N.jpg` | Annotated with bounding boxes |
 | `camera_detected_N_plot.jpg` | Matplotlib-styled annotated version |
 
+## 📸 Screenshots
+
+### 🖼️ Original Image
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0595cc11-c005-4fc7-be8a-47ef2e3736cb" alt="Original Image" width="400"/>
+</p>
+
+### 🎯 Predicted Output
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ff693bad-5154-4de3-9441-88a0ec3fd848" alt="Predicted Image" width="500"/>
+</p>
+
+
+### 🎯 Webcam Predicted Output
+<p align="center">
+  <img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/4719d4cc-834e-4d8b-90d6-fadede309c1f" />
+</p>
 ---
+
 
 ## 🛠️ Configuration
 
