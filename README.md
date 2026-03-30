@@ -99,7 +99,7 @@ That's it. The script is fully self-contained — it downloads the YOLOv8 model 
 
 ## 🔄 Project Workflow
 
-![Uploading image.png…]()
+<img width="1024" height="637" alt="image" src="https://github.com/user-attachments/assets/5b61c585-a4d8-4f92-a3ba-b9f84bcda9eb" />
 
 
 ```
