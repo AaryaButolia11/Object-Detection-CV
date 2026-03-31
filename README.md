@@ -1,4 +1,4 @@
-# 🎯 Real-Time Object Detection using YOLOv8
+#  Real-Time Object Detection using YOLOv8
 
 > **Course:** Computer Vision — Bring Your Own Project (BYOP)
 > **Deadline:** March 31, 2026
@@ -10,7 +10,7 @@ A complete object detection pipeline built with **YOLOv8** and **OpenCV** that d
 
 ---
 
-## 📌 Problem Statement
+##  Problem Statement
 
 Manually identifying and cataloguing objects in images or video streams is slow, error-prone, and impossible to scale. This project solves that by building an end-to-end real-time object detection system that can:
 
@@ -22,7 +22,7 @@ The system uses the **YOLOv8 nano** model (80 COCO classes) and is designed to r
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 object-detection-byop/
@@ -90,7 +90,7 @@ cd object-detection-byop
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 ```bash
 python object_detection_byop.py
@@ -100,7 +100,7 @@ That's it. The script is fully self-contained — it downloads the YOLOv8 model 
 
 ---
 
-## 🔄 Project Workflow
+##  Project Workflow
 
 <img width="1298" height="703" alt="image" src="https://github.com/user-attachments/assets/35eb86e5-51cc-424c-ba7a-6ba546a9896a" />
 
@@ -149,7 +149,7 @@ That's it. The script is fully self-contained — it downloads the YOLOv8 model 
 
 ---
 
-## 📷 Camera Click & Detect (Step 9)
+##  Camera Click & Detect (Step 9)
 
 This is the interactive highlight of the project.
 
@@ -179,25 +179,25 @@ This is the interactive highlight of the project.
 
 ## 📸 Screenshots
 
-### 🖼️ Original Image
+###  Original Image
 <p align="center">
   <img src="https://github.com/user-attachments/assets/0595cc11-c005-4fc7-be8a-47ef2e3736cb" alt="Original Image" width="400"/>
 </p>
 
-### 🎯 Predicted Output
+###  Predicted Output
 <p align="center">
   <img src="https://github.com/user-attachments/assets/ff693bad-5154-4de3-9441-88a0ec3fd848" alt="Predicted Image" width="500"/>
 </p>
 
 
-### 🎯 Webcam Predicted Output
+###  Webcam Predicted Output
 <p align="center">
   <img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/4719d4cc-834e-4d8b-90d6-fadede309c1f" />
 </p>
 ---
 
 
-## 🛠️ Configuration
+##  Configuration
 
 All settings are at the top of the script under **STEP 3 — CONFIGURATION**:
 
@@ -228,7 +228,7 @@ CUSTOM_IMAGE = "sample_data/my_photo.jpg"
 
 ---
 
-## 📊 Sample Output
+##  Sample Output
 
 **Detection table (terminal):**
 
@@ -246,7 +246,7 @@ CUSTOM_IMAGE = "sample_data/my_photo.jpg"
 
 ---
 
-## 📦 Dependencies
+##  Dependencies
 
 | Package | Purpose |
 |---------|---------|
@@ -259,7 +259,7 @@ CUSTOM_IMAGE = "sample_data/my_photo.jpg"
 
 ---
 
-## 🧠 Model Details
+##  Model Details
 
 - **Architecture:** YOLOv8 (You Only Look Once, version 8) by Ultralytics
 - **Variant used:** `yolov8n` (nano) — fastest, runs on CPU
@@ -270,7 +270,7 @@ CUSTOM_IMAGE = "sample_data/my_photo.jpg"
 
 ---
 
-## 🚧 Known Limitations
+##  Known Limitations
 
 - Webcam section is skipped automatically in environments without a camera (cloud, remote desktops)
 - Video download requires an internet connection on first run
@@ -279,7 +279,7 @@ CUSTOM_IMAGE = "sample_data/my_photo.jpg"
 
 ---
 
-## 📄 License
+##  License
 
 This project is submitted as academic coursework for the Computer Vision course. The YOLOv8 model is provided by [Ultralytics](https://github.com/ultralytics/ultralytics) under the AGPL-3.0 license.
 
