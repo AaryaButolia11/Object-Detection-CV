@@ -50,7 +50,7 @@ object-detection-byop/
 
 ---
 
-## ⚙️ Setup & Installation
+##  Setup & Installation
 
 ### Prerequisites
 
@@ -284,7 +284,7 @@ This project is submitted as academic coursework for the Computer Vision course.
 
 ---
 
-## 👤 Author
+##  Author
 
 **Aarya Butolia**
 **[23BAI10414]**
